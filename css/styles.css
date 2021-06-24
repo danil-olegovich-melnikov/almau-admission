@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    overflow-x: hidden;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+img {
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #004282 !important;
+}
+
+#banner {
+    height: 70vh;
+}
+
+@media only screen and (max-width: 600px) {
+    #banner {
+        height: 65vh !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #banner h1.title {
+        font-size: 1.6rem;
+    }
+}
+
+#banner .title {
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#banner .bg-primary {
+    background: linear-gradient(to bottom right, #f8f9fa 0%, #f8f9fa 50%, #004282 50%, #004282 100%) !important;
+}
+
+#banner .container {
+    vertical-align: bottom;
+}
+
+#banner .logo {
+    position: relative;
+    bottom: 0;
+}
+
+#steps .card {
+    border: 2px solid #004282;
+    border-radius: 12px;
+    margin: 5px 20px;
+    padding: 20px 0;
+}
+
+#steps .card:hover {
+    background: #004282;
+    color: white;
+    cursor: pointer;
+}
+
+
+#questions .card {
+    margin-bottom: 10px;
+    padding: 5px 0;
+    border: 2px solid #004282;
+}
+
+
+#questions .card-header {
+    background: none;
+}
+
+#work .btn.btn-primary {
+    background-color: #004282;
+    border: 0;
+}
+
+#work .btn.btn-primary:hover {
+    background-color: #ed1c24;
+}
+
+footer {
+    margin-top: 100px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+}
+
+footer a {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+}
